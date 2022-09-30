@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- header --> 
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="cabecera container-fluid">
+              <div class="logo">
+                <img src="img/codoacodo.png" href="#" width="115" height="57" alt="codoacodo">
+                <a class="navbar-brand" href="#">Conf Bs As</a>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="link nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Los oradores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">El lugar y la fecha</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Convertite en orador</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="link_verde nav-link" href="#">Comprar tickets</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- portada --> 
+      <div class="container-fluid" width="100%">
+        <img width="100%" src="img/hawaii.jpg" alt="Buenos Aires">
+        <div class="parrafo_portada">
+            <h2>Conf Bs As</h2>
+            <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Van a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para vos. Te esperamos!</p>
+            <button class="boton_tickets">Comprar tickets</button>
+        </div>
+      </div>
+    <!-- cards --> 
+    <section class="container-fluid">
+      <div class="grupo_cards">
+      <div class="titulo_oradores">
+        <h2 class="titulo_chico">CONOCE A LOS</h2>
+        <h2 class="titulo_grande">ORADORES</h2>
+      </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/steve.jpg" class="card-img-top" alt="Steve Jobs">
+                <div class="card-body">
+                  <h5 class="card-title">Steve Jobs</h5>
+                  <div class="mini_botones">
+                    <button class="mini_boton_js">Javascript</button>
+                    <button class="mini_boton_react">React</button>
+                  </div>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/bill.jpg" class="card-img-top" alt="Bill Gates">
+                <div class="card-body">
+                  <h5 class="card-title">Bill Gates</h5>
+                  <div class="mini_botones">
+                    <button class="mini_boton_js">Javascript</button>
+                    <button class="mini_boton_react">React</button>
+                  </div>
+                  <p class="card-text">This is a short card.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
+                <div class="card-body">
+                  <h5 class="card-title">Ada Lovelace</h5>
+                  <div class="mini_botones">
+                    <button class="mini_boton_negocios">Negocios</button>
+                    <button class="mini_boton_startups">Startups</button>
+                  </div>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- card grande --> 
+    <section class="container-fluid">
+      <div class="card_grande card mb-3" style="max-width: 1440px;">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="img/honolulu.jpg" class="foto_card_garnde img-fluid" alt="honolulu">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">Bs As - Octubre</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- contacto --> 
+    <div class="contacto">
+      <div class="titulo_oradores">
+        <h2 class="titulo_chico">CONVERTITE EN UN</h2>
+        <h2 class="titulo_grande">ORADOR</h2>
+      </div>
+        <div>
+            <P class="texto_contacto">Anotate como orador para dar una charla ignite. Contanos de qué querés hablar!</P>
+            <div>
+              <div class="campos_1y2 mb-3">
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Sobre qué querés hablar?" rows="3"></textarea>
+              </div>
+                <p class="recordatorio">Recordá incluir un título para tu charla</p>
+                <button class="boton_enviar">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <!-- footer --> 
+    <footer class="pie">
+        <div class="links_footer">
+            <p>Preguntas frecuentes</p>
+            <p>Contactanos</p>
+            <p>Prensa</p>
+            <p>Conferencias</p>
+            <p>Términos y condiciones</p>
+            <p>Privacidad</p>
+            <p>Estudiantes</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
